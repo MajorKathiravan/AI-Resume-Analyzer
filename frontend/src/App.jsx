@@ -64,7 +64,11 @@ function App() {
 
   // Load history once when application starts
   useEffect(() => {
-    loadHistory(false);
+    const timer = setTimeout(() => {
+      loadHistory(false);
+    }, 0);
+
+    return () => clearTimeout(timer);
   }, []);
 
   // =========================================================
