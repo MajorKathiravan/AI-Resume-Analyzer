@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+**/venv/
+
+# Environment variables
+.env
+.env.*
+
+# Uploaded files
+backend/uploads/
+uploads/
+
+# Local database
+backend/resume_analyzer.db
+*.db
+*.sqlite
+*.sqlite3
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
